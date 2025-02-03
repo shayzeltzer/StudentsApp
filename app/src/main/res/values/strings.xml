@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Students App</string>
+    <string name="fab_add_student">Add new student</string>
+</resources>
