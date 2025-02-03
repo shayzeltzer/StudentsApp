@@ -23,6 +23,7 @@ class StudentDetailsActivity : AppCompatActivity() {
             val intent = Intent(this, EditStudentActivity::class.java)
             intent.putExtra("STUDENT_ID", student.id)
             startActivity(intent)
+            finish()
         }
     }
 }
